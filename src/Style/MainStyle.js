@@ -114,8 +114,59 @@ export const SplashStyle = StyleSheet.create({
       fontSize: hp(1.85) , color:'black' , fontWeight:'300'
      }
   
-  }
+  })
 
-  )
+  export const ProfileStyle = StyleSheet.create({
+    agccomponent : {flexDirection: 'row', marginTop: hp(2.40), marginLeft: wp(6.40), height: wp(8)}  , 
+  agctextview : {
+  width: wp(8), height: wp(8), backgroundColor: '#231F20', alignItems: 'center', borderRadius: wp(4)
+  } , 
+  agclogotextstyle : {
+  color: 'white', fontWeight: "500", fontSize: wp(2.25) } ,
+  agctextstyle : {color: '#231F20', marginLeft: wp(1), fontSize: wp(6), letterSpacing: wp(0.5)} ,
+  profileiconstyle : {marginLeft: wp(22), backgroundColor: 'rgb(217, 0, 52)', borderRadius: wp(4), width: wp(8), height: wp(8)} , 
+  profileiconview : { width: wp(7), alignSelf: 'center'} , 
+  addiconview : { marginLeft: wp(10.66), justifyContent: 'center'} ,
+  menuview : { marginLeft: wp(10.66), justifyContent: 'center'} ,
+  add_edit_profile_view : {marginTop: hp(2.66), width: wp(100), height: hp('11.28'), flexDirection: 'row'} ,
+  uploadimgstyle : { height: wp(8.88), width: wp(7.46), marginTop: hp(3.2)} , 
+  uploadtext : {color: 'rgb(89 ,125 ,223)', fontSize: hp(1.5) } ,
+  profilepicstyle : { height: wp(33.86), width: wp(33.86)} ,
+  profilepictext : {color: 'black', textAlign: 'center', fontSize: hp(2.50), fontWeight: '300' } , 
+  editimg : { height: wp(7.46), width: wp(7.46), marginTop: hp(3.2)} ,
+  edittext : {color: 'rgb(89 ,125 ,223)', fontSize: hp(1.5), textAlign: 'center'} ,
+  dashboardview : { marginTop: hp(12), flexDirection: 'row', marginLeft: wp(6), height: hp(2.13)} , 
+  dashboartext :{ fontSize: hp(1.75) } , 
+  dashboardfooterview : {marginTop: hp(0.8), width: wp(88.53), marginLeft: wp(5.33), height: hp(24.711) } , 
+  lineview1 : { width: wp(88.53), borderRadius: 1, height: 1, backgroundColor: 'rgb(216, 216, 216)'} , 
+  profileratings : { marginTop: hp(0.8), height: hp(4.711)} ,
+  profileratingstext : { fontSize: hp(2.66) } , 
+  profileratingstext2 : {fontSize: hp(2) } , 
+  overallratingsview : { flexDirection: 'row', justifyContent: 'center', marginTop: hp(1.866) } ,
+  palleteview : {marginTop: hp(1.5), width: wp(91), height: hp(3.73), flexDirection: 'row' } ,
+  palletecolorview : { width: wp(18), height: hp(3.73),} ,
+  uploadlibimg : { height: wp(8.88), width: wp(7.46),} , 
+  uploadlibtext : { fontWeight: 'bold', fontSize: hp(1.5)} ,
+  exhibimg: { height: wp(8.26), width: wp(8.26), marginTop: hp(0.5)} ,
+  exhibtext: { fontWeight: 'bold', fontSize: hp(1.5)} ,
+  revimg : {height: wp(8.53), width: wp(8.50),} ,
+  revtext : { fontWeight: 'bold', fontSize: hp(1.5)} ,
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  })
 
 

@@ -4,6 +4,7 @@ import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-nat
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import { Images } from '../../assets/assets';
+import {  ProfileStyle } from '../../Style/MainStyle';
 
 
 export default function Profile() {
@@ -11,60 +12,62 @@ export default function Profile() {
   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
   return (
     <View style={{ flex: 1, }}>
-      <View style={{ flexDirection: 'row', marginTop: hp(2.40), marginLeft: wp(6.40), height: wp(8) }}>
-        <View style={{ width: wp(8), height: wp(8), backgroundColor: '#231F20', alignItems: 'center', borderRadius: wp(4) }}>
-          <Text style={{ color: 'white', fontWeight: "500", fontSize: wp(2.25), }}>A{'\n'}G{'\n'}C</Text>
+
+      <View style={ProfileStyle.agccomponent}>
+        <View style={ProfileStyle.agctextview}>
+          <Text style={ProfileStyle.agclogotextstyle}>A{'\n'}G{'\n'}C</Text>
         </View>
-        <Text style={{ color: '#231F20', marginLeft: wp(1), fontSize: wp(6), letterSpacing: wp(0.5) }}>AGC</Text>
+        <Text style={ProfileStyle.agctextstyle}>AGC</Text>
         <TouchableOpacity onPress={null}>
-          <View style={{ marginLeft: wp(22), backgroundColor: 'rgb(217, 0, 52)', borderRadius: wp(4), width: wp(8), height: wp(8) }}>
-            <View style={{ width: wp(7), alignSelf: 'center' }}>
+          <View style={ProfileStyle.profileiconstyle}>
+            <View style={ProfileStyle.profileiconview}>
               <Ionicons name={'person-outline'} size={wp(6.75)} />
             </View>
           </View>
         </TouchableOpacity>
         <TouchableOpacity onPress={null}>
-          <View style={{ marginLeft: wp(10.66), justifyContent: 'center' }}>
+          <View style={ProfileStyle.addiconview}>
             <Ionicons name={'add'} size={wp(7)} />
           </View>
         </TouchableOpacity>
         <TouchableOpacity onPress={null}>
-          <View style={{ marginLeft: wp(10.66), justifyContent: 'center' }}>
+          <View style={ProfileStyle.menuview}>
             <Ionicons name={'menu-outline'} size={wp(7)} />
           </View>
         </TouchableOpacity>
       </View>
-      <View style={{ marginTop: hp(2.66), width: wp(100), height: hp('11.28'), flexDirection: 'row' }}>
+
+      <View style={ProfileStyle.add_edit_profile_view}>
         <TouchableOpacity onPress={null}>
           <View style={{ marginLeft: wp(13.6) }}>
             <Image
               source={Images.upload}
-              style={{ height: wp(8.88), width: wp(7.46), marginTop: hp(3.2) }}
+              style={ProfileStyle.uploadimgstyle}
             />
-            <Text style={{ color: 'rgb(89 ,125 ,223)', fontSize: hp(1.5) }}>Upload</Text>
+            <Text style={ProfileStyle.uploadtext}>Upload</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity onPress={null}>
           <View style={{ marginLeft: wp(11.73) }}>
             <Image
               source={Images.profilepic}
-              style={{ height: wp(33.86), width: wp(33.86) }}
+              style={ProfileStyle.profilepicstyle}
             />
-            <Text style={{ color: 'black', textAlign: 'center', fontSize: hp(2.50), fontWeight: '300' }}>john.doe</Text>
+            <Text style={ProfileStyle.profilepictext}>john.doe</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity onPress={null}>
           <View style={{ marginLeft: wp(13.6) }}>
             <Image
               source={Images.edit}
-              style={{ height: wp(7.46), width: wp(7.46), marginTop: hp(3.2) }}
+              style={ProfileStyle.editimg}
             />
-            <Text style={{ color: 'rgb(89 ,125 ,223)', fontSize: hp(1.5), textAlign: 'center' }}>Edit</Text>
+            <Text style={ProfileStyle.edittext}>Edit</Text>
           </View>
         </TouchableOpacity>
       </View>
-      <View style={{ marginTop: hp(12), flexDirection: 'row', marginLeft: wp(6), height: hp(2.13) }}>
-        <Text style={{ fontSize: hp(1.75) }}>My dashboard</Text>
+      <View style={ProfileStyle.dashboardview}>
+        <Text style={ProfileStyle.dashboartext}>My dashboard</Text>
         <Switch
           style={{ marginLeft: wp(47) }}
           trackColor={{ false: "#767577", true: "rgb(68 , 163 , 61)" }}
@@ -75,25 +78,25 @@ export default function Profile() {
         />
       </View>
       {/** dashboard view */}
-      <View style={{ marginTop: hp(0.8), width: wp(88.53), marginLeft: wp(5.33), height: hp(24.711) }}>
+      <View style={ProfileStyle.dashboardfooterview}>
         {/**line code */}
-        <View style={{ width: wp(88.53), borderRadius: 1, height: 1, backgroundColor: 'rgb(216, 216, 216)' }}></View>
+        <View style={ProfileStyle.lineview1}></View>
         <View style={{ flexDirection: 'row' }}>
-          <View style={{ marginTop: hp(0.8), height: hp(4.711) }}>
-            <Text style={{ fontSize: hp(2.66) }}>2.3 K</Text>
-            <Text style={{ fontSize: hp(2) }}>Followers</Text>
+          <View style={ProfileStyle.profileratings}>
+            <Text style={ProfileStyle.profileratingstext}>2.3 K</Text>
+            <Text style={ProfileStyle.profileratingstext2}>Followers</Text>
           </View>
-          <View style={{ marginTop: hp(0.8), height: hp(4.711), marginLeft: wp(12) }}>
-            <Text style={{ fontSize: hp(2.66) }}>50</Text>
-            <Text style={{ fontSize: hp(2) }}>Art Works</Text>
+          <View style={[ProfileStyle.profileratings, { marginLeft: wp(12) }]} >
+            <Text style={ProfileStyle.profileratingstext}>50</Text>
+            <Text style={ProfileStyle.profileratingstext2}>Art Works</Text>
           </View>
-          <View style={{ marginTop: hp(0.8), height: hp(4.711), marginLeft: wp(12) }}>
-            <Text style={{ fontSize: hp(2.66) }}>21</Text>
-            <Text style={{ fontSize: hp(2) }}>Exhibitions</Text>
+          <View style={[ProfileStyle.profileratings, { marginLeft: wp(12) }]}>
+            <Text style={ProfileStyle.profileratingstext}>21</Text>
+            <Text style={ProfileStyle.profileratingstext2}>Exhibitions</Text>
           </View>
         </View>
-        <View style={{ marginTop: hp(3.22), width: wp(88.53), borderRadius: 1, height: 1, backgroundColor: 'rgb(216, 216, 216)' }}></View>
-        <View style={{ flexDirection: 'row', justifyContent: 'center', marginTop: hp(1.866) }}>
+        <View style={[{ marginTop: hp(3.22) }, ProfileStyle.lineview1]}></View>
+        <View style={ProfileStyle.overallratingsview}>
           <View style={{ flexDirection: 'row' }}>
             <TouchableOpacity onPress={null}>
               <Ionicons name={'heart-outline'} size={wp(7)} />
@@ -113,40 +116,40 @@ export default function Profile() {
             <Text style={{ fontSize: wp(5) }}> 43 pt</Text>
           </View>
         </View>
-        <View style={{ marginTop: hp(1.5), width: wp(91), height: hp(3.73), flexDirection: 'row' }}>
-          <View style={{ width: wp(18), height: hp(3.73), backgroundColor: 'purple' }}></View>
-          <View style={{ width: wp(18), height: hp(3.73), backgroundColor: 'maroon' }}></View>
-          <View style={{ width: wp(18), height: hp(3.73), backgroundColor: 'red' }}></View>
-          <View style={{ width: wp(18), height: hp(3.73), backgroundColor: 'orange' }}></View>
-          <View style={{ width: wp(18), height: hp(3.73), backgroundColor: 'yellow' }}></View>
+        <View style={ProfileStyle.palleteview}>
+          <View style={[ProfileStyle.palletecolorview, { backgroundColor: 'purple' }]}></View>
+          <View style={[ProfileStyle.palletecolorview, { backgroundColor: 'maroon' }]}></View>
+          <View style={[ProfileStyle.palletecolorview, { backgroundColor: 'red' }]}></View>
+          <View style={[ProfileStyle.palletecolorview, { backgroundColor: 'orange' }]}></View>
+          <View style={[ProfileStyle.palletecolorview, { backgroundColor: 'yellow' }]}></View>
         </View>
         <View style={{ flexDirection: 'row', marginTop: hp(3.2) }}>
           <View style={{ marginLeft: wp(10) }}>
             <TouchableOpacity onPress={null}>
               <Image
                 source={Images.upload}
-                style={{ height: wp(8.88), width: wp(7.46), }}
+                style={ProfileStyle.uploadlibimg}
               />
             </TouchableOpacity>
-            <Text style={{ fontWeight: 'bold', fontSize: hp(1.5) }}>Uploads</Text>
+            <Text style={ProfileStyle.uploadlibtext}>Uploads</Text>
           </View>
           <View style={{ marginLeft: wp(20) }}>
             <TouchableOpacity onPress={null}>
               <Image
                 source={Images.exhibitions}
-                style={{ height: wp(8.26), width: wp(8.26), marginTop: hp(0.5) }}
+                style={ProfileStyle.exhibimg}
               />
             </TouchableOpacity>
-            <Text style={{ fontWeight: 'bold', fontSize: hp(1.5) }}>Exhibitions</Text>
+            <Text style={ProfileStyle.exhibtext}>Exhibitions</Text>
           </View>
           <View style={{ marginLeft: wp(20) }}>
             <TouchableOpacity onPress={null}>
               <Image
                 source={Images.revenue}
-                style={{ height: wp(8.53), width: wp(8.50), }}
+                style={ProfileStyle.revimg}
               />
             </TouchableOpacity>
-            <Text style={{ fontWeight: 'bold', fontSize: hp(1.5) }}>Revenue</Text>
+            <Text style={ProfileStyle.revtext}>Revenue</Text>
           </View>
         </View>
       </View>

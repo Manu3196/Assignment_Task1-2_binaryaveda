@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import SplashScreen from '../screens/SplashScreen';
 import Register from '../screens/Register';
 import TabScreen from './TabScreen';
+import Profile from '../screens/TabScreen/Profile';
 
 const Stack = createStackNavigator();
 
@@ -14,6 +15,7 @@ function MyStack(props) {
             <Stack.Screen name="SplashScreen" component={SplashScreen} />
             <Stack.Screen name="Register" component={Register} />
             <Stack.Screen name="Tabscreen" component={TabScreen} options={{headerShown: false}}  />
+            <Stack.Screen name="Profile" component={Profile} options={{headerShown: false}}  />
         </Stack.Navigator>
     )
 }

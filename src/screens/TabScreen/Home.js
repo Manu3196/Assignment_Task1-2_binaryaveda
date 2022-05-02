@@ -8,8 +8,10 @@ import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import LoremIpsumCard from '../../common/cards/LoremIpsumCard';
 import FooterInfo from '../../common/cards/FooterInfo';
+import { useNavigation } from '@react-navigation/native';
 
 export default function Home() {
+  const navigation = useNavigation()
   return (
     <View style={{ flex: 1 }}>
       <ScrollView>
@@ -29,7 +31,7 @@ export default function Home() {
           <Text style={HomePageStyle.imagefooterviewtext}>Lorem ipsum dolor sit amet, consectetur{'\n'}adipiscing elit</Text>
         </View>
         <View style={HomePageStyle.regview}>
-          <TouchableOpacity onPress={null} style={HomePageStyle.regview2}>
+          <TouchableOpacity onPress={()=> navigation.navigate('Profile')} style={HomePageStyle.regview2}>
             <View style={{ justifyContent: 'center', marginHorizontal: wp(1.5) }}>
               <Ionicons name={'ios-arrow-forward'} size={wp(6.5)} color={'white'} />
             </View>
@@ -157,8 +159,6 @@ export default function Home() {
               <Text style={HomePageStyle.copyrightchildview2text}> Content Copyright reserved.</Text>
             </View>
           </View>
-
-
         </View>
       </ScrollView>
     </View>
