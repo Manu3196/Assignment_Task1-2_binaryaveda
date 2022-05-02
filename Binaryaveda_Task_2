@@ -1,1 +1,185 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T14:37:44.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.5.0" etag="mbWprolD73ZUWZz9QoB1" type="github"><diagram id="_EX7nR5HBwfy3NuWHAyz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-02T16:10:24.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="5wa77qslqx3t5DOdzHri" version="17.5.0" type="github">
+  <diagram id="_EX7nR5HBwfy3NuWHAyz" name="Page-1">
+    <mxGraphModel dx="3020" dy="2310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#F4F1DE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cb1mDDa77xznonjwkUfH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="-375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;fontColor=#393C56;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-1" target="cb1mDDa77xznonjwkUfH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-1" value="Aido&amp;nbsp;&lt;br&gt;&lt;br&gt;Signup/Login" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;labelBackgroundColor=#F4F1DE;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="305" y="-480" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Aido Login&lt;br&gt;with&lt;br&gt;&amp;nbsp;&lt;br&gt;a) Country code&amp;nbsp;&lt;br&gt;&lt;br&gt;b) Mobile Number&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=#F4F1DE;fontSize=13;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-510" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-17" value="&lt;font style=&quot;font-size: 30px&quot;&gt;&lt;b&gt;Aido Dashboard&lt;br&gt;with React Native&amp;nbsp;&lt;br&gt;bottom tabs&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;h1 style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#0000cc&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;The user will be navigated to Scan Qr&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Code&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontSize=13;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-250" width="350" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=30;fontColor=#393C56;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="-20" as="sourcePoint" />
+            <mxPoint x="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=29;fontColor=#393C56;labelBackgroundColor=#F4F1DE;strokeColor=#001DBC;fillColor=#0050ef;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-20" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#0000ff&quot;&gt;&lt;b&gt;Scan Qr&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontSize=30;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="520" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=30;fontColor=#393C56;exitX=0.545;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-17" target="cb1mDDa77xznonjwkUfH-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="-20" as="sourcePoint" />
+            <mxPoint x="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-22" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;Calls and&amp;nbsp;&lt;br&gt;Records&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontSize=30;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="370" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=30;fontColor=#393C56;exitX=0.323;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-17" target="cb1mDDa77xznonjwkUfH-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="-20" as="sourcePoint" />
+            <mxPoint x="310" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-25" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;A&lt;/font&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ido Robot&lt;br&gt;List&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontSize=30;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="200" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=30;fontColor=#393C56;exitX=0.994;exitY=0.931;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-17" target="cb1mDDa77xznonjwkUfH-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="-20" as="sourcePoint" />
+            <mxPoint x="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-27" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;Edit&amp;nbsp;&lt;br&gt;Profile&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontSize=30;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=30;fontColor=#393C56;exitX=0.09;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-17" target="cb1mDDa77xznonjwkUfH-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="-90" as="sourcePoint" />
+            <mxPoint x="170" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-30" value="&lt;font style=&quot;font-size: 16px&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;Activity&lt;br&gt;Feed&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontSize=30;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="40" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-31" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Times New Roman&quot; color=&quot;#000000&quot;&gt;&lt;b&gt;&lt;u&gt;Robot Setup&lt;/u&gt;&lt;/b&gt;&lt;br&gt;After Scanning&amp;nbsp;&lt;br&gt;Qr Code&lt;br&gt;&lt;b&gt;&lt;i&gt;Robot Name Alert&amp;nbsp;&lt;/i&gt;&lt;/b&gt;&lt;br&gt;display will ask :,&lt;br&gt;a) Robot Name&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=30;fontColor=#393C56;rounded=1;labelBackgroundColor=#F4F1DE;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-33" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.072;exitY=0.043;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;strokeColor=#001DBC;fillColor=#0050ef;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-31" target="cb1mDDa77xznonjwkUfH-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="240" as="sourcePoint" />
+            <mxPoint x="540" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-34" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;exitX=0.25;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="230" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-35" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="140" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-36" value="Connect" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-37" value="Customization" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-38" value="Members" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-39" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-36" target="cb1mDDa77xznonjwkUfH-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="660" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-40" value="&lt;b&gt;Video Calling&lt;/b&gt;&lt;br&gt;Use of&amp;nbsp;&lt;br&gt;Vonage Api&lt;br&gt;How ?&lt;br&gt;Can go&lt;br&gt;for&amp;nbsp;&lt;br&gt;Video Call&lt;br&gt;to&amp;nbsp;&lt;br&gt;Added&lt;br&gt;Member&lt;br&gt;List&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="490" y="570" width="170" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-42" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="540" as="sourcePoint" />
+            <mxPoint x="220" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-43" value="ROS Server&amp;nbsp;&lt;br&gt;Connection&lt;br&gt;with&amp;nbsp;&lt;br&gt;React Native&lt;br&gt;&lt;u style=&quot;font-weight: bold&quot;&gt;Purpose&lt;/u&gt;&lt;br&gt;&lt;br&gt;To&amp;nbsp;&lt;br&gt;Customize&amp;nbsp;&lt;br&gt;Various&amp;nbsp;&lt;br&gt;Robot Settings&lt;br&gt;ex- LEd&amp;nbsp;&lt;br&gt;Setings ,&lt;br&gt;SensorsSettings ,&lt;br&gt;AI Settings" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="135" y="570" width="170" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-44" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;exitX=0.083;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-38" target="cb1mDDa77xznonjwkUfH-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="360" as="sourcePoint" />
+            <mxPoint x="30" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-45" value="&lt;b&gt;Add Members&lt;/b&gt;&lt;br&gt;How ?&lt;br&gt;Fetching&amp;nbsp;&lt;br&gt;Phone Contact&lt;br&gt;List and&amp;nbsp;&lt;br&gt;Sending to backend gives&lt;br&gt;Aido buyers filtered&lt;br&gt;list" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=18;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="591" width="141" height="259" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-46" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="240" as="sourcePoint" />
+            <mxPoint x="340" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-47" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" target="cb1mDDa77xznonjwkUfH-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="95" as="sourcePoint" />
+            <mxPoint x="-20" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-48" value="&lt;b&gt;&lt;u&gt;Features&lt;/u&gt;&lt;/b&gt;&lt;br&gt;List of Activities&lt;br&gt;Captured&lt;br&gt;by Aido&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="120" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-49" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;exitX=0.163;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-48" target="cb1mDDa77xznonjwkUfH-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="300" as="sourcePoint" />
+            <mxPoint x="-200" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-50" value="&lt;b&gt;Sharing and downloading&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;A&lt;/font&gt;)&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 16 , 128) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;RNFetchBlob&lt;br&gt;&lt;/font&gt;B)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 16 , 128) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;CameraRoll&lt;br&gt;C)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 16 , 128) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;VideoPlayer&lt;br&gt;&lt;br&gt;&lt;br&gt;Video Player&lt;br&gt;For Playing Videos&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="305" width="180" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-51" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=17;fontColor=#393C56;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="820" as="sourcePoint" />
+            <mxPoint x="-10" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-52" value="&lt;b&gt;Add Aido&lt;br&gt;&lt;/b&gt;Buyers&lt;br&gt;by calling&amp;nbsp;&lt;br&gt;Api" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=17;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="-81" y="910" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-20" target="cb1mDDa77xznonjwkUfH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-54" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-340" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-56" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;exitX=0.983;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#F4F1DE;strokeColor=#E07A5F;" edge="1" parent="1" source="cb1mDDa77xznonjwkUfH-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="210" as="sourcePoint" />
+            <mxPoint x="920" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-57" value="&lt;b&gt;&lt;u&gt;Edit Profile&lt;/u&gt;&lt;br&gt;&lt;/b&gt;The user can&lt;br&gt;edit&amp;nbsp;&lt;br&gt;&lt;b&gt;Profile Image&lt;/b&gt;&lt;br&gt;&lt;b&gt;Face Training&amp;nbsp;&lt;br&gt;settings&lt;/b&gt;&lt;br&gt;&lt;b&gt;Notifications(Sensors&lt;/b&gt;)&lt;br&gt;&lt;b&gt;can Logout&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=16;fontColor=#393C56;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="1">
+          <mxGeometry x="830" y="190" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cb1mDDa77xznonjwkUfH-59" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 17px&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 17px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;Aido&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;Signup&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;a) Country Code&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;b) Mobile Number&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-weight: 700&quot;&gt;c) Profile Image Setup&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=#F4F1DE;fontFamily=Times New Roman;fontSize=16;align=center;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-129.5" y="-520" width="240" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
