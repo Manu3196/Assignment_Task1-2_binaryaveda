@@ -1,0 +1,56 @@
+                                                  
+                                                   Task 2 
+
+                                                  
+                                                   Project Description 
+
+        Aido Application is a cross PlatForm Application designed and developed with a team of 2 members . 
+         
+        Aim : 
+
+        The motto of Application is to connect and access various features of Aido through Mobile Application .
+
+        Features : 
+
+        A) ROS Integration : 
+        With ROS Integration : the user has access to Various hardware features of Aido such as : 
+        a) Face Recognition ; 
+        b) Sensors ; 
+        c) Behaviour Scgeduler ;
+        d) Led Settings ;
+        e) AI Settings ;
+        f) Modes  
+
+        B) Video Calling : 
+
+        a) The user can go for Video Calling to its added Aido Members List with Vonage Video Calling . 
+
+        C) Activity Sharing , Downloading , Playing : 
+
+        The user can share , download , and play videos and images captured by aido . 
+
+        Libraries Used : 
+        React Nativce fetch blob : For downloading Videos , Images . 
+        Camera Roll : For Saving Captured Images ; 
+        VideoPlayer : React-Native VideoPlayer
+
+        D) Scan Qr : 
+        Scanning Qr and Setting up Virtual Robot List . 
+
+    
+        Working : 
+
+        The user has to be registered and setup a profile with Phone number and Otp Verification . After Login : the user
+        will be navigated to the Scan Qr Code for Profile Setup .On Successful Qr code Scanning on the forhead of Aido 
+        the Alert will be popped up for setting up Robot List .The user has to give a name and willbe navigated to the 
+        Virtual Robot Lists Tab of Aido . Now the Virtual robot has three features : 
+        a) Add Members  will  add Aido Buyers List to Contact list of Aido .
+        b) Customization : Can Customize Aido's Various hardware features . 
+        c) Connect : Will Connect for Video Calling to Added Members of Aido buyers List . 
+
+        Activity Feed Tab : The Activities captured by personal Aido robot willlbe displayed here : and can be downloaded , 
+        share and watched . 
+
+        Call Screen : Includes Call history . 
+
+        Edit Profile : The user can edit Profile image , name etc.
